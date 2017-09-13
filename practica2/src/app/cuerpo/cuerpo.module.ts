@@ -8,8 +8,7 @@ import { Cp2Component } from './cp2/cp2.component';
     CommonModule
   ],
   exports: [
-    Cp1Component,
-    Cp2Component
+    
   ],
   declarations: [Cp1Component, Cp2Component]
 })
