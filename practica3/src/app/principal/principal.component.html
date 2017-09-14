@@ -1,3 +1,4 @@
-<p>
-  principal works!
-</p>
+<h1>A Checklist</h1>
+<app-hijo *ngFor='let elem of aLista' [elemento]='elem'  (evento)='del($event)'></app-hijo>
+<hr>
+<input type="text" [(ngModel)]='textoInput'> <button (click)="add()">Add</button>
